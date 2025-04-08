@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celestial Home</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="css/style1.css">
+
+  <style>
+    
+    main {
+      flex: 1;
+      padding: 3cm 7cm 2cm 7cm;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      width: 100%;
+      background: url("images/pexels-fotios-photos-1266302.jpg") center/cover no-repeat;
+    }
+
+    .form-container {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+      text-align: left;
+      backdrop-filter: blur(10px);
+      background-color: #d8d5d5;
+      margin-top: 2rem;
+    }
+
+    .form-container h2 {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .form-container label {
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="file"],
+    .form-container textarea {
+      width: calc(100% - 20px);
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .form-container textarea {
+      resize: none;
+      height: 100px;
+    }
+
+    .form-container button {
+      width: 100%;
+      padding: 10px;
+      background-color: black;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .form-container button:hover {
+      background-color: #666;
+    }
+
+    
+  </style>
+</head>
+
+<body>
+  <header>
+    
+    <a href="#" class="logo">Celestial Home - Home Decor Heaven<span>.</span></a>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="account.html"><img src="account.png" alt="Account" class="nav-image"></a></li>
+        <li><a href="cart.html"><img src="shopping_cart.png" alt="Shopping Cart" class="nav-image"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="productForm" class="form-container">
+      <h2>Upload Your Product</h2>
+      <form>
+        <label for="productName">Product Name</label>
+        <input type="text" id="productName" name="productName" placeholder="Product Name" required>
+
+        <label for="productPrice">Product Price</label>
+        <input type="text" id="productPrice" name="productPrice" placeholder="Product Price" required>
+
+        <label for="productDescription">Product Description</label>
+        <textarea id="productDescription" name="productDescription" placeholder="Product Description" required></textarea>
+
+        <label for="productImage">Product Image</label>
+        <input type="file" id="productImage" name="productImage" accept="image" required>
+
+        <button type="submit">Upload Product</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Celestial Home</h3>
+        <p> Find various types of Quality home Decorative items in international standards.</p>
+        <div class="social-icons">
+          <a href="#"><img src="facebook-48.png" alt="Facebook"></a>
+          <a href="#"><img src="instagram-48.png" alt="Instagram"></a>
+          <a href="#"><img src="twitter-logo-48.png" alt="Twitter"></a>
+          <a href="#"><img src="yt.png" alt="YouTube"></a>
+          <a href="#"><img src="whatsup.png" alt="WhatsApp"></a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Some Links</h3>
+        <a href="support.html">F.A.Q</a>
+        <a href="support.html">Cookies Policy</a>
+        <a href="support.html">Terms Of Service</a>
+        <a href="support.html">Support</a>
+      </div>
+      <div class="footer-section newsletter">
+        <h3>Newsletter</h3>
+        <input type="email" placeholder="Your email id here">
+        <button>Subscribe</button>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="account.html">Account</a>
+        <a href="cart.html">Cart</a>
+      </div><br>
+      <p>Copyright © 2024 Celestial Home</p>
+    </div>
+  </footer>
+</body>
+
+</html>

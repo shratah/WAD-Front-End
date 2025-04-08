@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celestial Home</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="css/style1.css">
+
+  <style>
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #fff;
+      padding: 2rem 9%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 1000;
+      box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    }
+
+    header .logo {
+      font-size: 3rem;
+      color: #333;
+      font-weight: bold;
+    }
+
+    header .logo span {
+      color: var(--white);
+    }
+
+    header .navbar ul {
+      display: flex;
+      list-style: none;
+    }
+
+    header .navbar ul li {
+      margin-right: 1.5rem;
+    }
+
+    header .icons img {
+      width: 2.5rem;
+      margin-left: 1.5rem;
+    }
+
+    main.search-bar {
+      width: 300px;
+      height: 30px;
+    }
+
+    main {
+      flex: 1;
+      padding-top: 3cm;
+      padding-bottom: 2cm;
+      padding-left: 7cm;
+      display: flex;
+      justify-content: left;
+      align-items:left;
+      width: 100%;
+      background: url("images/pexels-fotios-photos-1266302.jpg") center/cover no-repeat;
+   
+    }
+
+    .registration-form {
+      background-color: rgba(255, 255, 255, 0.8); 
+      border: 1px solid #ddd;
+      padding: 10px;
+      border-radius: 1px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: center;
+      backdrop-filter: blur(10px); 
+      background-color:#d8d5d5;
+    }
+
+    .registration-form h2 {
+      margin-bottom: 20px;
+    }
+
+    .registration-form p {
+      margin-bottom: 20px;
+      color: #666;
+    }
+
+    .registration-form label {
+      display: block;
+      text-align: left;
+      margin: 10px 0 5px;
+      color: #333;
+    }
+
+    .registration-form input[type="text"],
+    .registration-form input[type="email"],
+    .registration-form input[type="password"] {
+      width: calc(100% - 20px);
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .registration-form button {
+      width: 100%;
+      padding: 10px;
+      background-color: black;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .registration-form button:hover {
+      background-color: #666;
+    }
+
+    .registration-form .login-link {
+      margin-top: 20px;
+    }
+
+    .registration-form .login-link a {
+      color: grey;
+      text-decoration: none;
+    }
+
+    .registration-form .login-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+    <a href="#" class="logo">Celestial Home - Home Decor Heaven<span>.</span></a>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="account.html"><img src="account.png" alt="Account" class="nav-image"></a></li>
+        <li><a href="cart.html"><img src="shopping_cart.png" alt="Shopping Cart" class="nav-image"></a></li>
+      </ul>
+    </nav>
+   
+  </header>
+
+  <main>
+    <div class="registration-form">
+      <h2>Register</h2>
+      <p>Kindly fill in this form to register.</p>
+      <form id="registerForm">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter username" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter email" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter password" required>
+        <label for="repeat-password">Repeat Password</label>
+        <input type="password" id="repeat-password" name="repeat-password" placeholder="Repeat password" required>
+        <a href="e.html" class="btn">Register</a>
+      </form>
+      <div class="login-link">
+        Already have an account? <a href="registration account.html">Log in</a>.
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Celestial Home</h3>
+        <p> Find various types of Quality home Decorative items in international standards.</p>
+        <div class="social-icons">
+          <a href="#"><img src="facebook-48.png" alt="Facebook"></a>
+          <a href="#"><img src="instagram-48.png" alt="Instagram"></a>
+          <a href="#"><img src="twitter-logo-48.png" alt="Twitter"></a>
+          <a href="#"><img src="yt.png" alt="YouTube"></a>
+          <a href="#"><img src="whatsup.png" alt="WhatsApp"></a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Some Links</h3>
+        <a href="support.html">F.A.Q</a>
+        <a href="support.html">Cookies Policy</a>
+        <a href="support.html">Terms Of Service</a>
+        <a href="support.html">Support</a>
+      </div>
+      <div class="footer-section newsletter">
+        <h3>Newsletter</h3>
+        <input type="email" placeholder="Your email id here">
+        <button>Subscribe</button>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="account.html">Account</a>
+        <a href="cart.html">Cart</a>
+      </div><br>
+      <p>Copyright © 2024 Celestial Home</p>
+    </div>
+  </footer>
+</body>
+
+</html>

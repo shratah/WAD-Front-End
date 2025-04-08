@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Celestial Home</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="css/style1.css">
+  <style>
+    
+    main {
+      flex: 1;
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url('images/pexels-nietjuh-796602.jpg') center/cover no-repeat;
+    }
+
+    .form-container {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.452);
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-container>div {
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+    }
+
+    .form-container h2 {
+      margin-bottom: 20px;
+    }
+
+    .form-container p {
+      margin-bottom: 20px;
+      color: #666;
+    }
+
+    .form-container label {
+      display: block;
+      text-align: left;
+      margin: 10px 0 5px;
+      color: #333;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container input[type="password"] {
+      width: calc(100% - 20px);
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .form-container button {
+      width: 100%;
+      padding: 10px;
+      background-color: black;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .form-container button:hover {
+      background-color: #666;
+    }
+
+    .form-container .login-link {
+      margin-top: 20px;
+    }
+
+    .form-container .login-link a {
+      color: grey;
+      text-decoration: none;
+    }
+
+    .form-container .login-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    
+    <a href="#" class="logo">Celestial Home - Home Decor Heaven<span>.</span></a>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="account.html"><img src="account.png" alt="Account" class="nav-image"></a></li>
+        <li><a href="cart.html"><img src="shopping_cart.png" alt="Shopping Cart" class="nav-image"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="form-container">
+      <div class="login-form">
+        <h2>Log-In</h2>
+        <p>Kindly fill in this form to Login.</p>
+        <form id="loginform">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter email" required>
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Enter password" required>
+          <button type="submit">Log-in</button>
+        </form>
+        <div class="login-link">
+          Not a member? <a href="#">Sign up now</a>.
+        </div>
+      </div>
+
+      <div class="signin-form">
+        <h2>Sign-In</h2>
+        <p>Kindly fill in this form to Sign-in.</p>
+        <form id="signinform">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter email" required>
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Enter password" required>
+          <label for="confirmpassword">Confirm Password</label>
+          <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirm password" required>
+          <button type="submit">Sign-In</button>
+        </form>
+        <div class="login-link">
+          Already a member? <a href="#">Log in now</a>.
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Celestial Home</h3>
+        <p>Find various types of Quality home Decorative items in international standards.</p>
+        <div class="social-icons">
+          <a href="#"><img src="facebook-48.png" alt="Facebook"></a>
+          <a href="#"><img src="instagram-48.png" alt="Instagram"></a>
+          <a href="#"><img src="twitter-logo-48.png" alt="Twitter"></a>
+          <a href="#"><img src="yt.png" alt="YouTube"></a>
+          <a href="#"><img src="whatsup.png" alt="WhatsApp"></a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Some Links</h3>
+        <a href="support.html">F.A.Q</a>
+        <a href="support.html">Cookies Policy</a>
+        <a href="support.html">Terms Of Service</a>
+        <a href="support.html">Support</a>
+      </div>
+      <div class="footer-section newsletter">
+        <h3>Newsletter</h3>
+        <input type="email" placeholder="Your email id here">
+        <button>Subscribe</button>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-nav">
+        <a href="foot.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="account.html">Account</a>
+        <a href="cart.html">Cart</a>
+      </div><br>
+      <p>Copyright © 2024 Celestial Home</p>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Celestial Home</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="css/style1.css">
+
+  <style>
+    body{
+background-image: url(images/abs.jpeg);
+
+
+
+    }
+    
+    input[type="text"], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 1px;
+      resize: vertical;
+    }
+
+    
+    input[type="submit"] {
+      background-color: #748881;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      align-content: center;
+    }
+
+    .input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height:20cm; 
+      background-color: #f2f2f2;
+      background-image: url(images/sendmail1.jpeg);
+      background-image: cover;
+    }
+
+    form {
+      width: 50%;
+      max-width: 500px; 
+      height: 12.5cm;
+      padding: 20px;
+      background-color: white;
+      border-radius: 4px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    #contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#ccc;
+}
+
+#contact-details .details{
+    width: 40%;
+}
+
+#contact-details .details span,
+#form-details form span{
+    font-size: 12px;
+}
+
+#contact-details .details h2,
+#form-details form h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#contact-details .details h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+#contact-details .details li i{
+    font-size: 14px;
+    padding-right: 22px;
+}
+
+#contact-details .details li p{
+    margin: 0;
+    font-size: 14px;
+}
+
+  </style>
+</head>
+
+<body>
+  <header>
+    
+    <a href="#" class="logo">Celestial Home - Home Decor Heaven<span>.</span></a>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="account.html"><img src="account.png" alt="Account" class="nav-image"></a></li>
+        <li><a href="cart.html"><img src="shopping_cart.png" alt="Shopping Cart" class="nav-image"></a></li>
+      </ul>
+    </nav>
+    
+  </header>
+
+  <main>
+    <div class="container">
+      <form action="action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="SriLanka">SriLanka</option>
+          <option value="India">India</option>
+          <option value="Singapore">Singapore</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input button type="submit" value="Submit" align="center">
+      </form>
+    </div>
+    <section id="contact-details" class="section-p1">
+      <div class="details">
+          <span>GET IN TOUCH</span>
+          <h2>Visit one of our agency locations or contact us</h2>
+          <h3>Head Office</h3>
+          <div>
+              <li>
+                  <i class="fal fa-map"></i>
+                  <p>769, Pallaly  Road, Street 98, Vannarpannai</p>
+              </li>
+              <li>
+                  <i class="far fa-envelope"></i>
+                  <p>celestial2@Homegmail.com</p>
+              </li>
+              <li>
+                  <i class="fas fa-phone-alt"></i>
+                  <p>+94 741215723</p>
+              </li>
+              <li>
+                  <i class="far fa-clock"></i>
+                  <p>Mon to Sat: 9:00 AM to 16:00 PM</p>
+              </li>
+          </div>
+      </div>
+    
+  </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Celestial Home</h3>
+        <p>Find various types of Quality home Decorative items in international standards.</p>
+        <div class="social-icons">
+          <a href="#"><img src="facebook-48.png" alt="Facebook"></a>
+          <a href="#"><img src="instagram-48.png" alt="Instagram"></a>
+          <a href="#"><img src="twitter-logo-48.png" alt="Twitter"></a>
+          <a href="#"><img src="yt.png" alt="YouTube"></a>
+          <a href="#"><img src="whatsup.png" alt="WhatsApp"></a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Some Links</h3>
+        <a href="support.html">F.A.Q</a>
+        <a href="support.html">Cookies Policy</a>
+        <a href="support.html">Terms Of Service</a>
+        <a href="support.html">Support</a>
+      </div>
+      
+      <div class="footer-section newsletter">
+        <h3>Newsletter</h3>
+        <input type="email" placeholder="Your email id here">
+        <button>Subscribe</button>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-nav">
+        <a href="foot.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        
+        <a href="account.html">Account</a>
+          <a href="cart.html">Cart</a>
+        </div><br>
+        <p>Copyright © 2024 Celestial Home</p>
+      </div>
+    </footer>
+    
+        
+  
+  </body>
+  
+  </html>
+  

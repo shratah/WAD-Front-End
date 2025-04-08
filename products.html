@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Celestial Home</title>
+
+   
+    <link rel="stylesheet" href="css/style1.css">
+	 <style>
+	 .like-button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.like-button:hover {
+    transform: scale(1.2);
+    color:black;
+}
+
+.search-container {
+            text-align: center;
+            padding: 30px 0;
+            background-color: black;
+        }
+
+        .search-container input[type=text], 
+        .search-container button, 
+        .search-container select {
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .search-container button {
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .search-container button:hover {
+            background-color: white;
+            color: black;
+        }  main {
+            margin-top: 2.2cm;
+        }
+
+    </style>
+</head>
+<body>
+   
+    <header>
+        
+        <a href="#" class="logo">Celestial Home - Home Decor Heaven<span>.</span></a>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.html"><img src="account.png" alt="Account" class="nav-image"></a></li>
+                <li><a href="cart.html"><img src="shopping_cart.png" alt="Shopping Cart" class="nav-image"></a></li>
+              </ul>
+            </nav>
+        
+        </div>
+    </header>
+    <main>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search products...">
+            <select id="categorySelect">
+                <option value="">All Categories</option>
+                <option value="lights">Lights</option>
+                <option value="Lamps">Lamps</option>
+                <option value="paintings">Paintings</option>
+                <option value="crafts">Crafts</option>
+                <option value="others">Others</option>
+            </select>
+            <button onclick="filterProducts()">Search</button>
+        </div>
+
+	<div class="product" id="product">
+         <section id="products" class="grid-container">
+		<div class="grid-item">
+                <img src="images/lamps (1).jpg" alt="Lamp">
+                <div class="product-info">
+                    <h2>Table lamb</h2>
+                    <p>model-LM2021</p>
+                    <p>5,450.00 Rs</p><br>
+					 <button class="add-to-cart">Add to Cart</button>
+					
+<
+
+                </div>
+            </div>
+			
+			<div class="grid-item">
+                <img src="images/lamps (2).jpg" alt="Lamp">
+                <div class="product-info">
+                   <h2>Table lamb</h2>
+                    <p>model-LM2022</p>
+                    <p>5,000.00 Rs</p><br>
+				   <button class="add-to-cart">Add to Cart</button>
+				   
+
+
+                </div>
+            </div>
+		
+			<div class="grid-item">
+                <img src="images/Products (1).jpg" alt="Lamp">
+                <div class="product-info">
+                    <h2>   Yellow ArabesQue Lidded jar     </h2>
+                    <p>Yelloe ceramic</p>
+                    <p>5,600.00Rs</p><br>
+					<button class="add-to-cart">Add to Cart</button>
+
+                </div>
+            </div>		
+			<div class="grid-item">
+                <img src="images/Products (2).jpg" alt="Lamp">
+                <div class="product-info">
+                    <h2>Granite Base jar </h2>
+                    <p>Square jar</p>
+                    <p>10,000.00 Rs</p><br>
+					<button class="add-to-cart">Add to Cart</button>
+
+                </div>
+            </div>		
+			
+			
+			
+<div class="grid-item">
+                <img src="images/Product (86).jpg" alt="Lamp">
+                <div class="product-info">
+                    <h2>Painting  </h2>
+                    <p>White Peacock</p>
+                    <p>4,000.00 Rs</p><br>
+					<button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>		
+			<div class="grid-item">
+                <img src="images/Product (87).jpg" alt="Lamp">
+                <div class="product-info">
+                    <h2>Peacock painting</h2>
+                    <p>Model-7688</p>
+                    <p>2,450.00 Rs</p><br>
+					<button class="add-to-cart">Add to Cart</button>
+
+                </div>
+            </div>		
+			
+				
+			
+			
+	<div class="grid-item">
+                <img src="images/Product (105).jpg" alt="Lamp">
+                <div class="product-info">
+                    <h2>  Ain Dubai Globe </h2>
+                    <p>A night light</p>
+                    <p>5,999.00 Rs</p><br>
+					<button class="add-to-cart">Add to Cart</button>
+
+                </div>
+            </div>		
+			<div class="grid-item">
+                <img src="images/Product (103).jpg" alt="Lamp">
+                <div class="product-info">
+                    <h2>  Heart cloud Globe </h2>
+                    <p>A night light</p>
+                    <p>4,999.00 Rs</p><br>
+					<button class="add-to-cart">Add to Cart</button>
+
+                </div>
+            </div>	
+			
+			
+	
+	
+			</div>
+
+	</main>
+ 
+  <footer>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Celestial Home</h3>
+          <p> Find various types of Quality home Decorative items in international standards.</p>
+          <div class="social-icons">
+            <a href="#"><img src="facebook-48.png" alt="Facebook"></a>
+            <a href="#"><img src="instagram-48.png" alt="Instagram"></a>
+            <a href="#"><img src="twitter-logo-48.png" alt="Twitter"></a>
+            <a href="#"><img src="yt.png" alt="YouTube"></a>
+            <a href="#"><img src="whatsup.png" alt="WhatsApp"></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Some Links</h3>
+          <a href="support.html">F.A.Q</a>
+          <a href="support.html">Cookies Policy</a>
+          <a href="support.html">Terms Of Service</a>
+          <a href="support.html">Support</a>
+        </div>
+       
+        <div class="footer-section newsletter">
+          <h3>Newsletter</h3>
+          <input type="email" placeholder="Your email id here">
+          <button>Subscribe</button>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-nav">
+         
+          <a href="index.html">Home</a>
+         <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        <a href="account.html">Account</a>
+          <a href="cart.html">Cart</a>
+        </div><br>
+        <p>Copyright © 2024  Celestial Home</p>
+      </div>
+    </footer>
+    <script>
+      
+    </script>
+	</body>
+	</html>
